@@ -67,7 +67,7 @@ The application will be available at:
 Frontend: http://localhost:3000
 Backend API: http://localhost:5000
 
-📊 Project Structure
+## 📊 Project Structure
 cloud-cost-calculator/
 ├── frontend/          # React frontend application
 ├── backend/           # Express backend API
@@ -78,7 +78,7 @@ cloud-cost-calculator/
 ├── deployment/       # Deployment configurations
 └── docker-compose.yml
 
-🔧 Available Scripts
+## 🔧 Available Scripts
 npm run dev - Start both frontend and backend in development mode
 npm run build - Build both frontend and backend for production
 npm run test - Run all tests
@@ -86,27 +86,27 @@ npm run lint - Lint all code
 npm run format - Format code with Prettier
 npm run update-pricing - Update pricing data from cloud providers
 
-🐳 Docker Support
+## 🐳 Docker Support
 Development
 npm run docker:dev
 Production
 npm run docker:prod
 
-📈 Usage
+## 📈 Usage
 Select Services: Choose the cloud services you want to compare
 Configure Parameters: Set your usage requirements (CPU, RAM, storage, etc.)
 Compare Costs: View side-by-side cost comparisons
 Analyze Results: Review recommendations and cost breakdowns
 Export Data: Download results for further analysis
 
-🛣️ Roadmap
+## 🛣️ Roadmap
  Add more cloud services (Lambda, Functions, etc.)
  Implement user accounts and saved configurations
  Add cost alerts and monitoring
  Support for enterprise pricing models
  Mobile app version
 
-🤝 Contributing
+## 🤝 Contributing
 Fork the repository
 Create your feature branch (git checkout -b feature/AmazingFeature)
 Commit your changes (git commit -m 'Add some AmazingFeature')
@@ -116,14 +116,15 @@ Open a Pull Request
 📝 License
 This project is licensed under the MIT License - see the LICENSE file for details.
 
-👥 Authors
+## 👥 Authors
 Your Name - Initial work - YourGitHub
-🙏 Acknowledgments
+
+## 🙏 Acknowledgments
 Cloud providers for their pricing APIs
 Open source community for amazing tools
 Contributors who help improve this project
 
-📞 Support
+## 📞 Support
 If you have any questions or need help, please:
 
 Open an issue on GitHub

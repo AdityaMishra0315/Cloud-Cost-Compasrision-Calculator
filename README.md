@@ -43,8 +43,10 @@ Before running this project, make sure you have:
 ```bash
 git clone https://github.com/yourusername/cloud-cost-calculator.git
 cd cloud-cost-calculator
+
 2. Install dependencies
 npm run install:all
+
 3. Environment Setup
 # Copy environment files
 cp .env.example .env
@@ -52,16 +54,19 @@ cp frontend/.env.example frontend/.env
 cp backend/.env.example backend/.env
 
 # Update the .env files with your configuration
+
 4. Database Setup
 cd backend
 npx prisma migrate dev
 npx prisma generate
+
 5. Start development servers
 npm run dev
 The application will be available at:
 
 Frontend: http://localhost:3000
 Backend API: http://localhost:5000
+
 📊 Project Structure
 cloud-cost-calculator/
 ├── frontend/          # React frontend application
@@ -72,6 +77,7 @@ cloud-cost-calculator/
 ├── docs/             # Documentation
 ├── deployment/       # Deployment configurations
 └── docker-compose.yml
+
 🔧 Available Scripts
 npm run dev - Start both frontend and backend in development mode
 npm run build - Build both frontend and backend for production
@@ -79,29 +85,34 @@ npm run test - Run all tests
 npm run lint - Lint all code
 npm run format - Format code with Prettier
 npm run update-pricing - Update pricing data from cloud providers
+
 🐳 Docker Support
 Development
 npm run docker:dev
 Production
 npm run docker:prod
+
 📈 Usage
 Select Services: Choose the cloud services you want to compare
 Configure Parameters: Set your usage requirements (CPU, RAM, storage, etc.)
 Compare Costs: View side-by-side cost comparisons
 Analyze Results: Review recommendations and cost breakdowns
 Export Data: Download results for further analysis
+
 🛣️ Roadmap
  Add more cloud services (Lambda, Functions, etc.)
  Implement user accounts and saved configurations
  Add cost alerts and monitoring
  Support for enterprise pricing models
  Mobile app version
+
 🤝 Contributing
 Fork the repository
 Create your feature branch (git checkout -b feature/AmazingFeature)
 Commit your changes (git commit -m 'Add some AmazingFeature')
 Push to the branch (git push origin feature/AmazingFeature)
 Open a Pull Request
+
 📝 License
 This project is licensed under the MIT License - see the LICENSE file for details.
 
@@ -111,6 +122,7 @@ Your Name - Initial work - YourGitHub
 Cloud providers for their pricing APIs
 Open source community for amazing tools
 Contributors who help improve this project
+
 📞 Support
 If you have any questions or need help, please:
 
